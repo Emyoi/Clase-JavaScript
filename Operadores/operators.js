@@ -72,5 +72,34 @@ if (x === "100") {
   console.log(`${x} es igual en valor y tipo a number:100`);
 }
 
-// !=
-// if (x != )
+// != and !==
+if (x != 50) {
+  console.log("true");
+} else if (x !== 50) {
+  console.log("true");
+} else {
+  console.log("false");
+}
+
+// >
+if (x > 100) {
+  console.log(`true`);
+} else {
+  console.log(`false`);
+}
+
+// <
+if (x < 100) {
+  console.log(`true`);
+} else {
+  console.log(`false`);
+}
+
+// >= and <=
+if (x >= 100) {
+  console.log(`true`);
+} else if (x <= 100) {
+  console.log(`true2`);
+} else {
+  console.log(`false`);
+}
