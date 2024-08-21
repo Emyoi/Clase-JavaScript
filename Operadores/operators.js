@@ -56,3 +56,21 @@ x = 4;
 // **=
 x **= 2;
 console.log(x);
+
+//! condicionales
+x = 100;
+
+// ==
+if (x == 100) {
+  console.log(`${x} es igual en valor a 100`);
+}
+
+// ===
+if (x === "100") {
+  console.log(`${x} es igual en valor y tipo a string:'100'`);
+} else {
+  console.log(`${x} es igual en valor y tipo a number:100`);
+}
+
+// !=
+// if (x != )
